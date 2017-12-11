@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD23AF37459ABC71FE19F94 /* Pods_FQL_LeDongLi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2F42131F7204CF8898D326 /* Pods_FQL_LeDongLi.framework */; };
+		45422592228A32E0C7789777 /* Pods_FQL_LeDongLiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D477ECE180BCFA280F138BC5 /* Pods_FQL_LeDongLiTests.framework */; };
+		DF26D4281FAAED3C00609348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D4271FAAED3C00609348 /* AppDelegate.swift */; };
+		DF26D42D1FAAED3C00609348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF26D42B1FAAED3C00609348 /* Main.storyboard */; };
+		DF26D4321FAAED3C00609348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF26D4301FAAED3C00609348 /* LaunchScreen.storyboard */; };
+		DF26D43D1FAAED3D00609348 /* FQL_LeDongLiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D43C1FAAED3D00609348 /* FQL_LeDongLiTests.swift */; };
+		DF26D44D1FAAF52900609348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF26D44C1FAAF52900609348 /* Assets.xcassets */; };
+		DF26D4641FAB0E1500609348 /* QLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D4631FAB0E1500609348 /* QLTabBarController.swift */; };
+		DF26D4661FAB0E9600609348 /* QLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D4651FAB0E9600609348 /* QLNavigationController.swift */; };
+		DF26D4681FAB0EE100609348 /* QLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D4671FAB0EE100609348 /* QLBaseViewController.swift */; };
+		DF26D46A1FAB0F3B00609348 /* QLCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D4691FAB0F3B00609348 /* QLCommunityViewController.swift */; };
+		DF26D46C1FAB0F4C00609348 /* QLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D46B1FAB0F4C00609348 /* QLHomeViewController.swift */; };
+		DF26D46E1FAB0F5B00609348 /* QLMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D46D1FAB0F5B00609348 /* QLMyViewController.swift */; };
+		DF4A922C1FB2E7DE00A81FCC /* QLPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A922B1FB2E7DE00A81FCC /* QLPlanViewController.swift */; };
+		DF4A922E1FB2E81800A81FCC /* QLPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A922D1FB2E81800A81FCC /* QLPlanCell.swift */; };
+		DF4A92301FB2EE3D00A81FCC /* QLTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A922F1FB2EE3D00A81FCC /* QLTodayViewController.swift */; };
+		DF4A92321FB306A500A81FCC /* QLSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A92311FB306A500A81FCC /* QLSegment.swift */; };
+		DF518F8B1FAFE7660033A172 /* QLTopicAndArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF518F891FAFE7660033A172 /* QLTopicAndArticleCell.swift */; };
+		DF518F8C1FAFE7660033A172 /* QLTopicAndArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF518F8A1FAFE7660033A172 /* QLTopicAndArticleCell.xib */; };
+		DF518F8F1FAFEB9B0033A172 /* QLHotAndRecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF518F8D1FAFEB9B0033A172 /* QLHotAndRecommendCell.swift */; };
+		DF518F901FAFEB9B0033A172 /* QLHotAndRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF518F8E1FAFEB9B0033A172 /* QLHotAndRecommendCell.xib */; };
+		DF518F921FB0360E0033A172 /* QLBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF518F911FB0360E0033A172 /* QLBannerView.swift */; };
+		DF5A6D891FB9738500BB042D /* QLNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A6D881FB9738500BB042D /* QLNetwork.swift */; };
+		DF5BF0D91FCD682000C8F133 /* LongPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BF0D81FCD682000C8F133 /* LongPressButton.swift */; };
+		DF5C384F1FBA97F4008BE3E8 /* QLCommunityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5C384E1FBA97F4008BE3E8 /* QLCommunityModels.swift */; };
+		DF5E96851FC2701600D72A8A /* QLCommunityParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E96841FC2701600D72A8A /* QLCommunityParser.swift */; };
+		DF5E96871FC2706100D72A8A /* QLDynamicDetailParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E96861FC2706100D72A8A /* QLDynamicDetailParser.swift */; };
+		DF60184C1FBD351800FAE843 /* QLDynamicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60184B1FBD351800FAE843 /* QLDynamicDetailViewController.swift */; };
+		DF602B841FB432D40099B1C8 /* QLMyPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF602B831FB432D40099B1C8 /* QLMyPageCell.swift */; };
+		DF602B881FB438010099B1C8 /* YXWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF602B871FB438010099B1C8 /* YXWaveView.swift */; };
+		DF602B8B1FB45CF50099B1C8 /* QLMyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF602B891FB45CF50099B1C8 /* QLMyInfoViewController.swift */; };
+		DF602B8C1FB45CF50099B1C8 /* QLMyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF602B8A1FB45CF50099B1C8 /* QLMyInfoViewController.xib */; };
+		DF610A941FB1A32A001322E8 /* QLRunningDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF610A921FB1A32A001322E8 /* QLRunningDataCell.swift */; };
+		DF610A951FB1A32A001322E8 /* QLRunningDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF610A931FB1A32A001322E8 /* QLRunningDataCell.xib */; };
+		DF610A981FB1A3B4001322E8 /* QLDietCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF610A961FB1A3B4001322E8 /* QLDietCell.swift */; };
+		DF610A991FB1A3B4001322E8 /* QLDietCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF610A971FB1A3B4001322E8 /* QLDietCell.xib */; };
+		DF610A9C1FB1A3FC001322E8 /* QLAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF610A9A1FB1A3FC001322E8 /* QLAdCell.swift */; };
+		DF610A9D1FB1A3FC001322E8 /* QLAdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF610A9B1FB1A3FC001322E8 /* QLAdCell.xib */; };
+		DF62FA411FCBB36E0006D667 /* QLRunningMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62FA401FCBB36E0006D667 /* QLRunningMapCell.swift */; };
+		DF62FA431FCBB39B0006D667 /* QLRunningTotalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62FA421FCBB39B0006D667 /* QLRunningTotalCell.swift */; };
+		DF62FA451FCBB4DE0006D667 /* QLRunningRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62FA441FCBB4DE0006D667 /* QLRunningRecordViewController.swift */; };
+		DF62FA471FCBF0940006D667 /* QLRunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF62FA461FCBF0940006D667 /* QLRunningViewController.swift */; };
+		DF7150DC1FC7C16E0064D8A3 /* CoreMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7150DA1FC7C16E0064D8A3 /* CoreMotionManager.swift */; };
+		DF7150DD1FC7C16E0064D8A3 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7150DB1FC7C16E0064D8A3 /* HealthKitManager.swift */; };
+		DF7150DF1FC7CD440064D8A3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7150DE1FC7CD440064D8A3 /* HealthKit.framework */; };
+		DF7150E21FC7FDA80064D8A3 /* QLHomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7150E11FC7FDA80064D8A3 /* QLHomeModels.swift */; };
+		DF7150E41FC8101C0064D8A3 /* QLHomeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7150E31FC8101C0064D8A3 /* QLHomeParser.swift */; };
+		DF79D8801FABF9CB003DA2ED /* QLConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D87F1FABF9CB003DA2ED /* QLConst.swift */; };
+		DF79D8821FAC46AF003DA2ED /* QLCommunityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79D8811FAC46AF003DA2ED /* QLCommunityHeaderView.swift */; };
+		DF79D8841FAC4703003DA2ED /* QLCommunityHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF79D8831FAC4703003DA2ED /* QLCommunityHeaderView.xib */; };
+		DF7D3E721FBE758B00675D41 /* QLDynamicDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D3E711FBE758B00675D41 /* QLDynamicDetailCell.swift */; };
+		DF7D3E741FBE75C900675D41 /* QLLikeUsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D3E731FBE75C900675D41 /* QLLikeUsersCell.swift */; };
+		DF7D3E761FBE75EE00675D41 /* QLCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D3E751FBE75EE00675D41 /* QLCommentCell.swift */; };
+		DFAD7FDE1FAC6B0F0067750B /* QLSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD7FDC1FAC6B0F0067750B /* QLSectionHeaderView.swift */; };
+		DFAD7FDF1FAC6B0F0067750B /* QLSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAD7FDD1FAC6B0F0067750B /* QLSectionHeaderView.xib */; };
+		DFAD7FE21FAC70860067750B /* QLDynamicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD7FE01FAC70860067750B /* QLDynamicCell.swift */; };
+		DFAD7FE31FAC70860067750B /* QLDynamicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAD7FE11FAC70860067750B /* QLDynamicCell.xib */; };
+		DFF16F1D1FC69A1900C7BE46 /* QLMotionCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF16F1C1FC69A1900C7BE46 /* QLMotionCircularView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF26D4391FAAED3D00609348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF26D41C1FAAED3C00609348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF26D4231FAAED3C00609348;
+			remoteInfo = FQL_LeDongLi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A2F42131F7204CF8898D326 /* Pods_FQL_LeDongLi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQL_LeDongLi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FB2906CB8B7511FD409CB2 /* Pods-FQL_LeDongLiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQL_LeDongLiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQL_LeDongLiTests/Pods-FQL_LeDongLiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6905DBA87B24DFD514EAC8E /* Pods-FQL_LeDongLi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQL_LeDongLi.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQL_LeDongLi/Pods-FQL_LeDongLi.release.xcconfig"; sourceTree = "<group>"; };
+		D095DA54818CE3E869F396D8 /* Pods-FQL_LeDongLi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQL_LeDongLi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQL_LeDongLi/Pods-FQL_LeDongLi.debug.xcconfig"; sourceTree = "<group>"; };
+		D477ECE180BCFA280F138BC5 /* Pods_FQL_LeDongLiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQL_LeDongLiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF26D4241FAAED3C00609348 /* FQL_LeDongLi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQL_LeDongLi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF26D4271FAAED3C00609348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF26D42C1FAAED3C00609348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF26D4311FAAED3C00609348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF26D4331FAAED3C00609348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF26D4381FAAED3D00609348 /* FQL_LeDongLiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQL_LeDongLiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF26D43C1FAAED3D00609348 /* FQL_LeDongLiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQL_LeDongLiTests.swift; sourceTree = "<group>"; };
+		DF26D43E1FAAED3D00609348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF26D44C1FAAF52900609348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF26D4631FAB0E1500609348 /* QLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLTabBarController.swift; sourceTree = "<group>"; };
+		DF26D4651FAB0E9600609348 /* QLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLNavigationController.swift; sourceTree = "<group>"; };
+		DF26D4671FAB0EE100609348 /* QLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLBaseViewController.swift; sourceTree = "<group>"; };
+		DF26D4691FAB0F3B00609348 /* QLCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLCommunityViewController.swift; sourceTree = "<group>"; };
+		DF26D46B1FAB0F4C00609348 /* QLHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLHomeViewController.swift; sourceTree = "<group>"; };
+		DF26D46D1FAB0F5B00609348 /* QLMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLMyViewController.swift; sourceTree = "<group>"; };
+		DF4A922B1FB2E7DE00A81FCC /* QLPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPlanViewController.swift; sourceTree = "<group>"; };
+		DF4A922D1FB2E81800A81FCC /* QLPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPlanCell.swift; sourceTree = "<group>"; };
+		DF4A922F1FB2EE3D00A81FCC /* QLTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLTodayViewController.swift; sourceTree = "<group>"; };
+		DF4A92311FB306A500A81FCC /* QLSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLSegment.swift; sourceTree = "<group>"; };
+		DF518F891FAFE7660033A172 /* QLTopicAndArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLTopicAndArticleCell.swift; sourceTree = "<group>"; };
+		DF518F8A1FAFE7660033A172 /* QLTopicAndArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLTopicAndArticleCell.xib; sourceTree = "<group>"; };
+		DF518F8D1FAFEB9B0033A172 /* QLHotAndRecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLHotAndRecommendCell.swift; sourceTree = "<group>"; };
+		DF518F8E1FAFEB9B0033A172 /* QLHotAndRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLHotAndRecommendCell.xib; sourceTree = "<group>"; };
+		DF518F911FB0360E0033A172 /* QLBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLBannerView.swift; sourceTree = "<group>"; };
+		DF5A6D881FB9738500BB042D /* QLNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLNetwork.swift; sourceTree = "<group>"; };
+		DF5BF0D81FCD682000C8F133 /* LongPressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButton.swift; sourceTree = "<group>"; };
+		DF5C384E1FBA97F4008BE3E8 /* QLCommunityModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLCommunityModels.swift; sourceTree = "<group>"; };
+		DF5E96841FC2701600D72A8A /* QLCommunityParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLCommunityParser.swift; sourceTree = "<group>"; };
+		DF5E96861FC2706100D72A8A /* QLDynamicDetailParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLDynamicDetailParser.swift; sourceTree = "<group>"; };
+		DF60184B1FBD351800FAE843 /* QLDynamicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLDynamicDetailViewController.swift; sourceTree = "<group>"; };
+		DF602B831FB432D40099B1C8 /* QLMyPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLMyPageCell.swift; sourceTree = "<group>"; };
+		DF602B871FB438010099B1C8 /* YXWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXWaveView.swift; sourceTree = "<group>"; };
+		DF602B891FB45CF50099B1C8 /* QLMyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLMyInfoViewController.swift; sourceTree = "<group>"; };
+		DF602B8A1FB45CF50099B1C8 /* QLMyInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLMyInfoViewController.xib; sourceTree = "<group>"; };
+		DF610A921FB1A32A001322E8 /* QLRunningDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLRunningDataCell.swift; sourceTree = "<group>"; };
+		DF610A931FB1A32A001322E8 /* QLRunningDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLRunningDataCell.xib; sourceTree = "<group>"; };
+		DF610A961FB1A3B4001322E8 /* QLDietCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLDietCell.swift; sourceTree = "<group>"; };
+		DF610A971FB1A3B4001322E8 /* QLDietCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLDietCell.xib; sourceTree = "<group>"; };
+		DF610A9A1FB1A3FC001322E8 /* QLAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLAdCell.swift; sourceTree = "<group>"; };
+		DF610A9B1FB1A3FC001322E8 /* QLAdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLAdCell.xib; sourceTree = "<group>"; };
+		DF62FA401FCBB36E0006D667 /* QLRunningMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLRunningMapCell.swift; sourceTree = "<group>"; };
+		DF62FA421FCBB39B0006D667 /* QLRunningTotalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLRunningTotalCell.swift; sourceTree = "<group>"; };
+		DF62FA441FCBB4DE0006D667 /* QLRunningRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLRunningRecordViewController.swift; sourceTree = "<group>"; };
+		DF62FA461FCBF0940006D667 /* QLRunningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLRunningViewController.swift; sourceTree = "<group>"; };
+		DF7150DA1FC7C16E0064D8A3 /* CoreMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionManager.swift; sourceTree = "<group>"; };
+		DF7150DB1FC7C16E0064D8A3 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		DF7150DE1FC7CD440064D8A3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DF7150E01FC7CD440064D8A3 /* FQL_LeDongLi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FQL_LeDongLi.entitlements; sourceTree = "<group>"; };
+		DF7150E11FC7FDA80064D8A3 /* QLHomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLHomeModels.swift; sourceTree = "<group>"; };
+		DF7150E31FC8101C0064D8A3 /* QLHomeParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLHomeParser.swift; sourceTree = "<group>"; };
+		DF79D87F1FABF9CB003DA2ED /* QLConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLConst.swift; sourceTree = "<group>"; };
+		DF79D8811FAC46AF003DA2ED /* QLCommunityHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLCommunityHeaderView.swift; sourceTree = "<group>"; };
+		DF79D8831FAC4703003DA2ED /* QLCommunityHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLCommunityHeaderView.xib; sourceTree = "<group>"; };
+		DF7D3E711FBE758B00675D41 /* QLDynamicDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLDynamicDetailCell.swift; sourceTree = "<group>"; };
+		DF7D3E731FBE75C900675D41 /* QLLikeUsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLLikeUsersCell.swift; sourceTree = "<group>"; };
+		DF7D3E751FBE75EE00675D41 /* QLCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLCommentCell.swift; sourceTree = "<group>"; };
+		DFAD7FDC1FAC6B0F0067750B /* QLSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLSectionHeaderView.swift; sourceTree = "<group>"; };
+		DFAD7FDD1FAC6B0F0067750B /* QLSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLSectionHeaderView.xib; sourceTree = "<group>"; };
+		DFAD7FE01FAC70860067750B /* QLDynamicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLDynamicCell.swift; sourceTree = "<group>"; };
+		DFAD7FE11FAC70860067750B /* QLDynamicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QLDynamicCell.xib; sourceTree = "<group>"; };
+		DFF16F1C1FC69A1900C7BE46 /* QLMotionCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLMotionCircularView.swift; sourceTree = "<group>"; };
+		E7CDDCA269A7D0FDDA7F4556 /* Pods-FQL_LeDongLiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQL_LeDongLiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQL_LeDongLiTests/Pods-FQL_LeDongLiTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF26D4211FAAED3C00609348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD23AF37459ABC71FE19F94 /* Pods_FQL_LeDongLi.framework in Frameworks */,
+				DF7150DF1FC7CD440064D8A3 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF26D4351FAAED3D00609348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45422592228A32E0C7789777 /* Pods_FQL_LeDongLiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1815355A0B088E507359CC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7150DE1FC7CD440064D8A3 /* HealthKit.framework */,
+				6A2F42131F7204CF8898D326 /* Pods_FQL_LeDongLi.framework */,
+				D477ECE180BCFA280F138BC5 /* Pods_FQL_LeDongLiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612B2261D0E088FAEF3FB771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D095DA54818CE3E869F396D8 /* Pods-FQL_LeDongLi.debug.xcconfig */,
+				C6905DBA87B24DFD514EAC8E /* Pods-FQL_LeDongLi.release.xcconfig */,
+				B7FB2906CB8B7511FD409CB2 /* Pods-FQL_LeDongLiTests.debug.xcconfig */,
+				E7CDDCA269A7D0FDDA7F4556 /* Pods-FQL_LeDongLiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF26D41B1FAAED3C00609348 = {
+			isa = PBXGroup;
+			children = (
+				DF26D4261FAAED3C00609348 /* FQL_LeDongLi */,
+				DF26D43B1FAAED3D00609348 /* FQL_LeDongLiTests */,
+				DF26D4251FAAED3C00609348 /* Products */,
+				612B2261D0E088FAEF3FB771 /* Pods */,
+				1815355A0B088E507359CC67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF26D4251FAAED3C00609348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4241FAAED3C00609348 /* FQL_LeDongLi.app */,
+				DF26D4381FAAED3D00609348 /* FQL_LeDongLiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF26D4261FAAED3C00609348 /* FQL_LeDongLi */ = {
+			isa = PBXGroup;
+			children = (
+				DF7150E01FC7CD440064D8A3 /* FQL_LeDongLi.entitlements */,
+				DF26D4271FAAED3C00609348 /* AppDelegate.swift */,
+				DF26D44F1FAAFB0600609348 /* Classes */,
+				DF26D44E1FAAFADB00609348 /* SupportFiles */,
+				DF26D4621FAAFB1200609348 /* Vendors */,
+			);
+			path = FQL_LeDongLi;
+			sourceTree = "<group>";
+		};
+		DF26D43B1FAAED3D00609348 /* FQL_LeDongLiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D43C1FAAED3D00609348 /* FQL_LeDongLiTests.swift */,
+				DF26D43E1FAAED3D00609348 /* Info.plist */,
+			);
+			path = FQL_LeDongLiTests;
+			sourceTree = "<group>";
+		};
+		DF26D44E1FAAFADB00609348 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D42B1FAAED3C00609348 /* Main.storyboard */,
+				DF26D4301FAAED3C00609348 /* LaunchScreen.storyboard */,
+				DF26D4331FAAED3C00609348 /* Info.plist */,
+				DF26D44C1FAAF52900609348 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		DF26D44F1FAAFB0600609348 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4531FAAFB0600609348 /* Main */,
+				DF26D4501FAAFB0600609348 /* BaseClasses */,
+				DF26D4511FAAFB0600609348 /* Category */,
+				DF26D4521FAAFB0600609348 /* DataBase */,
+				DF26D4601FAAFB0600609348 /* Network */,
+				DF26D4611FAAFB0600609348 /* Utility */,
+				DF79D87E1FABF988003DA2ED /* Const */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF26D4501FAAFB0600609348 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4631FAB0E1500609348 /* QLTabBarController.swift */,
+				DF26D4651FAB0E9600609348 /* QLNavigationController.swift */,
+				DF26D4671FAB0EE100609348 /* QLBaseViewController.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		DF26D4511FAAFB0600609348 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DF26D4521FAAFB0600609348 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		DF26D4531FAAFB0600609348 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4541FAAFB0600609348 /* Community */,
+				DF26D4581FAAFB0600609348 /* Home */,
+				DF26D45C1FAAFB0600609348 /* My */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DF26D4541FAAFB0600609348 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4551FAAFB0600609348 /* Controllers */,
+				DF26D4561FAAFB0600609348 /* Models */,
+				DF26D4571FAAFB0600609348 /* Views */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		DF26D4551FAAFB0600609348 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4691FAB0F3B00609348 /* QLCommunityViewController.swift */,
+				DF60184B1FBD351800FAE843 /* QLDynamicDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF26D4561FAAFB0600609348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF5C384E1FBA97F4008BE3E8 /* QLCommunityModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF26D4571FAAFB0600609348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF79D8811FAC46AF003DA2ED /* QLCommunityHeaderView.swift */,
+				DF79D8831FAC4703003DA2ED /* QLCommunityHeaderView.xib */,
+				DFAD7FDC1FAC6B0F0067750B /* QLSectionHeaderView.swift */,
+				DFAD7FDD1FAC6B0F0067750B /* QLSectionHeaderView.xib */,
+				DFAD7FE01FAC70860067750B /* QLDynamicCell.swift */,
+				DFAD7FE11FAC70860067750B /* QLDynamicCell.xib */,
+				DF518F8D1FAFEB9B0033A172 /* QLHotAndRecommendCell.swift */,
+				DF518F8E1FAFEB9B0033A172 /* QLHotAndRecommendCell.xib */,
+				DF518F891FAFE7660033A172 /* QLTopicAndArticleCell.swift */,
+				DF518F8A1FAFE7660033A172 /* QLTopicAndArticleCell.xib */,
+				DF7D3E711FBE758B00675D41 /* QLDynamicDetailCell.swift */,
+				DF7D3E731FBE75C900675D41 /* QLLikeUsersCell.swift */,
+				DF7D3E751FBE75EE00675D41 /* QLCommentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF26D4581FAAFB0600609348 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D4591FAAFB0600609348 /* Controllers */,
+				DF26D45A1FAAFB0600609348 /* Models */,
+				DF26D45B1FAAFB0600609348 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DF26D4591FAAFB0600609348 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D46B1FAB0F4C00609348 /* QLHomeViewController.swift */,
+				DF4A922F1FB2EE3D00A81FCC /* QLTodayViewController.swift */,
+				DF4A922B1FB2E7DE00A81FCC /* QLPlanViewController.swift */,
+				DF62FA441FCBB4DE0006D667 /* QLRunningRecordViewController.swift */,
+				DF62FA461FCBF0940006D667 /* QLRunningViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF26D45A1FAAFB0600609348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF7150E11FC7FDA80064D8A3 /* QLHomeModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF26D45B1FAAFB0600609348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF610A921FB1A32A001322E8 /* QLRunningDataCell.swift */,
+				DF610A931FB1A32A001322E8 /* QLRunningDataCell.xib */,
+				DF610A961FB1A3B4001322E8 /* QLDietCell.swift */,
+				DF610A971FB1A3B4001322E8 /* QLDietCell.xib */,
+				DF610A9A1FB1A3FC001322E8 /* QLAdCell.swift */,
+				DF610A9B1FB1A3FC001322E8 /* QLAdCell.xib */,
+				DF4A922D1FB2E81800A81FCC /* QLPlanCell.swift */,
+				DFF16F1C1FC69A1900C7BE46 /* QLMotionCircularView.swift */,
+				DF62FA401FCBB36E0006D667 /* QLRunningMapCell.swift */,
+				DF62FA421FCBB39B0006D667 /* QLRunningTotalCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF26D45C1FAAFB0600609348 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D45D1FAAFB0600609348 /* Controllers */,
+				DF26D45E1FAAFB0600609348 /* Models */,
+				DF26D45F1FAAFB0600609348 /* Views */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		DF26D45D1FAAFB0600609348 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF26D46D1FAB0F5B00609348 /* QLMyViewController.swift */,
+				DF602B891FB45CF50099B1C8 /* QLMyInfoViewController.swift */,
+				DF602B8A1FB45CF50099B1C8 /* QLMyInfoViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DF26D45E1FAAFB0600609348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF26D45F1FAAFB0600609348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF602B831FB432D40099B1C8 /* QLMyPageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF26D4601FAAFB0600609348 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A6D881FB9738500BB042D /* QLNetwork.swift */,
+				DF5E96841FC2701600D72A8A /* QLCommunityParser.swift */,
+				DF5E96861FC2706100D72A8A /* QLDynamicDetailParser.swift */,
+				DF7150E31FC8101C0064D8A3 /* QLHomeParser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF26D4611FAAFB0600609348 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DF518F911FB0360E0033A172 /* QLBannerView.swift */,
+				DF4A92311FB306A500A81FCC /* QLSegment.swift */,
+				DF602B871FB438010099B1C8 /* YXWaveView.swift */,
+				DF7150DA1FC7C16E0064D8A3 /* CoreMotionManager.swift */,
+				DF7150DB1FC7C16E0064D8A3 /* HealthKitManager.swift */,
+				DF5BF0D81FCD682000C8F133 /* LongPressButton.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DF26D4621FAAFB1200609348 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		DF79D87E1FABF988003DA2ED /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				DF79D87F1FABF9CB003DA2ED /* QLConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF26D4231FAAED3C00609348 /* FQL_LeDongLi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF26D4411FAAED3D00609348 /* Build configuration list for PBXNativeTarget "FQL_LeDongLi" */;
+			buildPhases = (
+				DFE013556A5401D58C05D55E /* [CP] Check Pods Manifest.lock */,
+				DF26D4201FAAED3C00609348 /* Sources */,
+				DF26D4211FAAED3C00609348 /* Frameworks */,
+				DF26D4221FAAED3C00609348 /* Resources */,
+				0611718118C70F5DE43CDD36 /* [CP] Embed Pods Frameworks */,
+				3B57CD3A1AB1E726916FB457 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQL_LeDongLi;
+			productName = FQL_LeDongLi;
+			productReference = DF26D4241FAAED3C00609348 /* FQL_LeDongLi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF26D4371FAAED3D00609348 /* FQL_LeDongLiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF26D4441FAAED3D00609348 /* Build configuration list for PBXNativeTarget "FQL_LeDongLiTests" */;
+			buildPhases = (
+				B53627E607E9EA10DD6AAF18 /* [CP] Check Pods Manifest.lock */,
+				DF26D4341FAAED3D00609348 /* Sources */,
+				DF26D4351FAAED3D00609348 /* Frameworks */,
+				DF26D4361FAAED3D00609348 /* Resources */,
+				6C44EE2133D1F549E0B43B3D /* [CP] Embed Pods Frameworks */,
+				6DB26BD3C7A478E5FF17BAB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF26D43A1FAAED3D00609348 /* PBXTargetDependency */,
+			);
+			name = FQL_LeDongLiTests;
+			productName = FQL_LeDongLiTests;
+			productReference = DF26D4381FAAED3D00609348 /* FQL_LeDongLiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF26D41C1FAAED3C00609348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QL;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = KingLin;
+				TargetAttributes = {
+					DF26D4231FAAED3C00609348 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					DF26D4371FAAED3D00609348 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF26D4231FAAED3C00609348;
+					};
+				};
+			};
+			buildConfigurationList = DF26D41F1FAAED3C00609348 /* Build configuration list for PBXProject "FQL_LeDongLi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF26D41B1FAAED3C00609348;
+			productRefGroup = DF26D4251FAAED3C00609348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF26D4231FAAED3C00609348 /* FQL_LeDongLi */,
+				DF26D4371FAAED3D00609348 /* FQL_LeDongLiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF26D4221FAAED3C00609348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF79D8841FAC4703003DA2ED /* QLCommunityHeaderView.xib in Resources */,
+				DF26D4321FAAED3C00609348 /* LaunchScreen.storyboard in Resources */,
+				DF26D44D1FAAF52900609348 /* Assets.xcassets in Resources */,
+				DF610A9D1FB1A3FC001322E8 /* QLAdCell.xib in Resources */,
+				DFAD7FDF1FAC6B0F0067750B /* QLSectionHeaderView.xib in Resources */,
+				DF610A991FB1A3B4001322E8 /* QLDietCell.xib in Resources */,
+				DF610A951FB1A32A001322E8 /* QLRunningDataCell.xib in Resources */,
+				DF518F8C1FAFE7660033A172 /* QLTopicAndArticleCell.xib in Resources */,
+				DFAD7FE31FAC70860067750B /* QLDynamicCell.xib in Resources */,
+				DF602B8C1FB45CF50099B1C8 /* QLMyInfoViewController.xib in Resources */,
+				DF26D42D1FAAED3C00609348 /* Main.storyboard in Resources */,
+				DF518F901FAFEB9B0033A172 /* QLHotAndRecommendCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF26D4361FAAED3D00609348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0611718118C70F5DE43CDD36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQL_LeDongLi/Pods-FQL_LeDongLi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B57CD3A1AB1E726916FB457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQL_LeDongLi/Pods-FQL_LeDongLi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C44EE2133D1F549E0B43B3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQL_LeDongLiTests/Pods-FQL_LeDongLiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB26BD3C7A478E5FF17BAB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQL_LeDongLiTests/Pods-FQL_LeDongLiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53627E607E9EA10DD6AAF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE013556A5401D58C05D55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF26D4201FAAED3C00609348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4A922E1FB2E81800A81FCC /* QLPlanCell.swift in Sources */,
+				DFAD7FE21FAC70860067750B /* QLDynamicCell.swift in Sources */,
+				DFAD7FDE1FAC6B0F0067750B /* QLSectionHeaderView.swift in Sources */,
+				DF7150E41FC8101C0064D8A3 /* QLHomeParser.swift in Sources */,
+				DF26D46C1FAB0F4C00609348 /* QLHomeViewController.swift in Sources */,
+				DF518F8F1FAFEB9B0033A172 /* QLHotAndRecommendCell.swift in Sources */,
+				DF7D3E761FBE75EE00675D41 /* QLCommentCell.swift in Sources */,
+				DF602B8B1FB45CF50099B1C8 /* QLMyInfoViewController.swift in Sources */,
+				DF26D46A1FAB0F3B00609348 /* QLCommunityViewController.swift in Sources */,
+				DFF16F1D1FC69A1900C7BE46 /* QLMotionCircularView.swift in Sources */,
+				DF62FA451FCBB4DE0006D667 /* QLRunningRecordViewController.swift in Sources */,
+				DF26D46E1FAB0F5B00609348 /* QLMyViewController.swift in Sources */,
+				DF7D3E741FBE75C900675D41 /* QLLikeUsersCell.swift in Sources */,
+				DF7D3E721FBE758B00675D41 /* QLDynamicDetailCell.swift in Sources */,
+				DF602B881FB438010099B1C8 /* YXWaveView.swift in Sources */,
+				DF4A92301FB2EE3D00A81FCC /* QLTodayViewController.swift in Sources */,
+				DF60184C1FBD351800FAE843 /* QLDynamicDetailViewController.swift in Sources */,
+				DF79D8821FAC46AF003DA2ED /* QLCommunityHeaderView.swift in Sources */,
+				DF518F921FB0360E0033A172 /* QLBannerView.swift in Sources */,
+				DF26D4681FAB0EE100609348 /* QLBaseViewController.swift in Sources */,
+				DF62FA411FCBB36E0006D667 /* QLRunningMapCell.swift in Sources */,
+				DF79D8801FABF9CB003DA2ED /* QLConst.swift in Sources */,
+				DF26D4641FAB0E1500609348 /* QLTabBarController.swift in Sources */,
+				DF610A941FB1A32A001322E8 /* QLRunningDataCell.swift in Sources */,
+				DF5A6D891FB9738500BB042D /* QLNetwork.swift in Sources */,
+				DF62FA431FCBB39B0006D667 /* QLRunningTotalCell.swift in Sources */,
+				DF4A922C1FB2E7DE00A81FCC /* QLPlanViewController.swift in Sources */,
+				DF4A92321FB306A500A81FCC /* QLSegment.swift in Sources */,
+				DF62FA471FCBF0940006D667 /* QLRunningViewController.swift in Sources */,
+				DF7150DC1FC7C16E0064D8A3 /* CoreMotionManager.swift in Sources */,
+				DF5E96851FC2701600D72A8A /* QLCommunityParser.swift in Sources */,
+				DF5C384F1FBA97F4008BE3E8 /* QLCommunityModels.swift in Sources */,
+				DF610A9C1FB1A3FC001322E8 /* QLAdCell.swift in Sources */,
+				DF5E96871FC2706100D72A8A /* QLDynamicDetailParser.swift in Sources */,
+				DF602B841FB432D40099B1C8 /* QLMyPageCell.swift in Sources */,
+				DF5BF0D91FCD682000C8F133 /* LongPressButton.swift in Sources */,
+				DF518F8B1FAFE7660033A172 /* QLTopicAndArticleCell.swift in Sources */,
+				DF7150E21FC7FDA80064D8A3 /* QLHomeModels.swift in Sources */,
+				DF26D4661FAB0E9600609348 /* QLNavigationController.swift in Sources */,
+				DF610A981FB1A3B4001322E8 /* QLDietCell.swift in Sources */,
+				DF7150DD1FC7C16E0064D8A3 /* HealthKitManager.swift in Sources */,
+				DF26D4281FAAED3C00609348 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF26D4341FAAED3D00609348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF26D43D1FAAED3D00609348 /* FQL_LeDongLiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF26D43A1FAAED3D00609348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF26D4231FAAED3C00609348 /* FQL_LeDongLi */;
+			targetProxy = DF26D4391FAAED3D00609348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF26D42B1FAAED3C00609348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF26D42C1FAAED3C00609348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF26D4301FAAED3C00609348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF26D4311FAAED3C00609348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF26D43F1FAAED3D00609348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF26D4401FAAED3D00609348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF26D4421FAAED3D00609348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D095DA54818CE3E869F396D8 /* Pods-FQL_LeDongLi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FQL_LeDongLi/FQL_LeDongLi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUUHR5LBN2;
+				INFOPLIST_FILE = "$(SRCROOT)/FQL_LeDongLi/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kinglin.fu.FQL-LeDongLi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF26D4431FAAED3D00609348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6905DBA87B24DFD514EAC8E /* Pods-FQL_LeDongLi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = FQL_LeDongLi/FQL_LeDongLi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUUHR5LBN2;
+				INFOPLIST_FILE = "$(SRCROOT)/FQL_LeDongLi/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kinglin.fu.FQL-LeDongLi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DF26D4451FAAED3D00609348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FB2906CB8B7511FD409CB2 /* Pods-FQL_LeDongLiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUUHR5LBN2;
+				INFOPLIST_FILE = FQL_LeDongLiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kinglin.fu.FQL-LeDongLiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQL_LeDongLi.app/FQL_LeDongLi";
+			};
+			name = Debug;
+		};
+		DF26D4461FAAED3D00609348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CDDCA269A7D0FDDA7F4556 /* Pods-FQL_LeDongLiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUUHR5LBN2;
+				INFOPLIST_FILE = FQL_LeDongLiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kinglin.fu.FQL-LeDongLiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQL_LeDongLi.app/FQL_LeDongLi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF26D41F1FAAED3C00609348 /* Build configuration list for PBXProject "FQL_LeDongLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF26D43F1FAAED3D00609348 /* Debug */,
+				DF26D4401FAAED3D00609348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF26D4411FAAED3D00609348 /* Build configuration list for PBXNativeTarget "FQL_LeDongLi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF26D4421FAAED3D00609348 /* Debug */,
+				DF26D4431FAAED3D00609348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF26D4441FAAED3D00609348 /* Build configuration list for PBXNativeTarget "FQL_LeDongLiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF26D4451FAAED3D00609348 /* Debug */,
+				DF26D4461FAAED3D00609348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF26D41C1FAAED3C00609348 /* Project object */;
+}
